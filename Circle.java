@@ -1,15 +1,14 @@
 
 
 public class Circle extends Shape{
+
     private double raduis;
 
     // constructer
     public Circle(){
-    super();
      this.raduis=1.0;
     }
     public Circle(double raduis) {
-        super();
         this.raduis = raduis;
     }
 
