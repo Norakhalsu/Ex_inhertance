@@ -8,11 +8,11 @@ public class Sequare extends Rectangle {
   }
 
   public Sequare(double side) {
-      super.getWidth();
+      super(side, side);
   }
 
   public Sequare(double side, String color, boolean filled) {
-
+       super(color,filled,side,side);
   }
    public double getSide(){
      return  getWidth();
